@@ -26,7 +26,7 @@ psql -U <user_name> -d postgres
 Create a User with password and create a database for your project.
 
 ```
-CREATE USER “project’_one_rw” WITH PASSWORD 'password123’;
+CREATE USER “project_one_rw” WITH PASSWORD 'password123’;
 CREATE DATABASE project_one with owner 'project_one_rw';
 ```
 
